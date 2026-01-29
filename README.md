@@ -13,7 +13,7 @@ pip install ultralytics opencv-python
 🏋️ Training
 To train the model on a custom dataset, use:
 
-Python
+## Python code
 from ultralytics import YOLO
 model = YOLO('yolov8n.pt')
 model.train(data='data.yaml', epochs=10, imgsz=640, batch=4, workers=0)
